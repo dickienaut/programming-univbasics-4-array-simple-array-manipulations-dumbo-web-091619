@@ -33,3 +33,7 @@ def using_insert(array, element, number=4)
   array = array.insert(number, element)
   array
 end
+
+def using_uniq(array)
+  array.uniq!
+end
