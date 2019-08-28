@@ -28,3 +28,8 @@ def using_concat(array1, array2)
   array1 = array1.concat(array2)
   array1
 end
+
+def using_insert(array, element, number=4)
+  array = array.insert(number, element)
+  array
+end
